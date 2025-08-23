@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwind cdn -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="flex justify-center items-center h-[100vh] bg-[#F4F5F7]">
+    <div class="main_container  w-[400px] mb-5">
+        <div class="flex justify-center items-center">
+            <div class="img_container flex justify-center items-center bg-[url(assets/bg.png)] bg-cover h-36  w-[316px]">
+            <img src="assets/Group.png" alt="group_png">
+        </div>
+        </div>
+        
+        <form class="p-8 rounded-3xl bg-white h-[313px]">
+            <label class="font-[500]" for="number">Mobile Number</label>
+            <input class="block bg-[#F4F5F7] mb-5 h-12 w-full mt-2 rounded-4xl border-0 pl-5 text-[#080808] text-sm" type="number" placeholder="Enter your number">
+            <label class="font-[500]" for="number">4 Digit Pin</label>
+            <input class="block bg-[#F4F5F7] h-12 w-full mt-2 rounded-4xl border-0 pl-5 text-[#080808] text-sm" type="number" placeholder="Enter 4 digit pin">
+            <button type="button" class="btn btn-active rounded-4xl h-[53px] bg-[#0874F2] text-white w-full mt-4">Login</button>
+        </form>
+    </div>
+</body>
+</html>
