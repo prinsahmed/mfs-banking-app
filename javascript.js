@@ -80,7 +80,7 @@ document.getElementById('transaction').addEventListener('click', function(){
 });
 // log out 
 document.getElementById('log').addEventListener('click', function (){
-    window.location.href = 'log in.html'
+    window.location.href = 'index.html'
 });
 // calculation
 // adding money
